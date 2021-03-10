@@ -145,12 +145,8 @@ document.body.append(buttons);
 for (let i = 0; i < 6; i++) {
     let button = document.createElement("span");
     button.textContent = "Change colour";
-
-    button.style.width = "100px";
-    button.style.height = "50px";
-    button.style.padding = "10px"
+    button.classList.add('btn');
     button.style.backgroundColor = '#' + (Math.random().toString(16) + '000000').substring(2, 8).toUpperCase();
-    button.style.cursor = "pointer";
     button.onclick = function (event) {
         listItems.style.color = event.target.style.backgroundColor;
     };

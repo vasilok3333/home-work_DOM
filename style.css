@@ -29,3 +29,11 @@
     text-align: center;
 }
 
+.btn {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
