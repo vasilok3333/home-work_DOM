@@ -1,0 +1,31 @@
+.title {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.one-country {
+    text-transform: uppercase;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color: blue;
+}
+
+.word {
+    text-transform: uppercase;
+}
+
+.section_buttons {
+    text-align: center;
+}
+
